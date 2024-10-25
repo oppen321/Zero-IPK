@@ -1,9 +1,8 @@
-# 欢迎来到ZeroWrt插件源
+# 一键使用方法
 
-Zero-IPK为ZeroWrt专用插件源（支持23.05分支）
+   ```bash
 
-使用方法
-1.
+   echo -e "\nsrc-git extraipk https://github.com/xiangfeidexiaohuo/extra-ipk" >> feeds.conf.default
 
-
+   ```
 ## 官方讨论群
