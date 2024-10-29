@@ -7,7 +7,7 @@ local ipkg = require("luci.model.ipkg")
 local api = require "luci.model.cbi.gpsysupgrade.api"
 local Variable1 = "oppen321"
 local Variable2 = "Lede-update"
-local Variable3 = "X86_64"
+local Variable3 = "x86_64"
 local Variable4 = "6.6"
 
 function get_system_version()

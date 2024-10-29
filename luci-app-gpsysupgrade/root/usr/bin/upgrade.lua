@@ -6,10 +6,10 @@ local util = require "luci.util"
 local i18n = require "luci.i18n"
 local ipkg = require("luci.model.ipkg")
 local api = require "luci.model.cbi.gpsysupgrade.api"
-local Variable1 = "ywt114"
-local Variable2 = "OpenWrt"
+local Variable1 = "oppen321"
+local Variable2 = "Lede-update"
 local Variable3 = "x86_64"
-local Variable4 = "6.1"
+local Variable4 = "6.6"
 
 function get_system_version()
 	local system_version = luci.sys.exec("[ -f '/etc/openwrt_version' ] && echo -n `cat /etc/openwrt_version` | tr -d '\n'")
