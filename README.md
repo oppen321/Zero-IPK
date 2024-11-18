@@ -2,7 +2,7 @@
 
    ```bash
 
-   echo -e "\nsrc-git extraipk https://github.com/xiangfeidexiaohuo/extra-ipk" >> feeds.conf.default
+   echo -e "\nsrc-git Zero-IPK https://github.com/oppen321/Zero-IPK" >> feeds.conf.default
 
    ```
 ## 官方讨论群
