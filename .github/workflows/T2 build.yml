@@ -51,7 +51,7 @@ jobs:
       - name: Upload packages
         uses: ncipollo/release-action@main
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.TOKEN_OPPEN321 }}
           artifacts: "${{ matrix.arch }}-${{ matrix.sdk }}.zip,bin/packages/${{ matrix.arch }}/packages_ci/*.ipk"
           allowUpdates: true
           replacesArtifacts: true
